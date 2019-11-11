@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button1 {
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+
+    .button1:hover {
+        background-color: olive;
+        color: white;
+    }
+
+    table,
+    th,
+    td {
+        border: 3px solid black;
+        border-block-end-color: green;
+        border-block-start-color: blue;
+        border-left-color: cyan;
+        border-right-color: cyan;
+        line-height: 35px;
+
+    }
+</style>
+
+<body>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <table style="background-color: navajowhite">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td class="button1">Jill</td>
+            <td class="button1">Smith</td>
+            <td class="button1">50</td>
+        </tr>
+        <tr>
+            <td class="button1">Eve</td>
+            <td class="button1">Jackson</td>
+            <td class="button1">94</td>
+        </tr>
+    </table>
+</body>
+
+</html>
