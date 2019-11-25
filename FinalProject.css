@@ -93,3 +93,11 @@ div.transbox p {
     text-shadow: 2px 2px #000000;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+form {
+    color: white;
+}
+
+span {
+    color: white;
+}
